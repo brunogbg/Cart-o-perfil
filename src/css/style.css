@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.cartao{
+    text-align: center;
+    background-color: #FFF;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.cartao .informacoes-perfil{
+    padding: 25px;
+}
+
+.cartao .informacoes-perfil .foto-perfil{
+    border-radius: 50px;
+}
+
+.cartao .informacoes-perfil h2{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.cartao .informacoes-perfil .idade{
+    color: hsl(227, 10%, 46%);
+}
+
+.cartao .informacoes-perfil .cidade{
+    padding: 10px;
+}
+
+.cartao .redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cartao .redes-sociais .numeros-perfil{
+    font-weight: 700;
+}
+
+.cartao .informacoes-perfil .idade, 
+.cartao .informacoes-perfil .cidade, 
+.cartao .redes-sociais .informacoes{
+    color: hsl(227, 10%, 46%);
+}
